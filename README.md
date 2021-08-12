@@ -15,10 +15,10 @@ La presente guía será basada en la versión 5 de Bootstrap
 
 ## Contenido
 
-- [Requerimientos técnicos](#requerimientos)
+- [Requerimientos técnicos](#requerimientos-técnicos)
 - [Instalación](#instalación)
 - [Estructura de carpetas](#estructura-de-carpetas)
-- [Importar JavaScript](#importar-JavaScript)
+- [Importar JavaScript](#importar-javascript)
 - [Importar CSS](#importar-css)
 - [Construir aplicación](#construir-aplicación)
 - [Ejecución de entorno](#ejecución-de-entorno)
@@ -33,7 +33,7 @@ Herramientas requeridas: Visual Studio Code, Node.js, cualquier navegador.
 
 Se utilizará la documentación [Getting started page](https://getbootstrap.com/docs/5.1/getting-started/introduction/) para referencia en cuanto al proceso de instalación, contenido del framework, plantillas, ejemplos y más.
 
-La guía considerará los resultados obtenidos con Bootstrap v.5.1, Visual Studio Code v.1.59.0 y Node.js v.14.16.0 o 14.17.5.
+La guía considerará los resultados obtenidos con Bootstrap v.5.1, Visual Studio Code v.1.59.0 y Node.js v.14.16.0 o 14.17.5. Utilizar la consola Terminal del VSC para la ejcución de las instrucciones npm.
 
 ## Instalación
 
@@ -98,11 +98,19 @@ Incluir en el archivo <code>src/index.js</code> antes del cierre del <code>&lt;/
   </body>
 </html>
 ```
-<br>
-
 ## Ejecución de entorno
 
-Lo primero que deberemos hacer será editar el archivo <code>package.json</code>
+Lo primero que deberemos hacer será editar el archivo <code>package.json</code> agregando los scripts de dev y build.
+```
+"scripts": {
+  "dev": "parcel ./src/index.html",
+  "prebuild": "npx rimraf build",
+  "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+}
+```
+A continuación se deberá ejecutar el Run dev script.
+<br>
+`npm run dev`
 
 ## Copyright y licencia
 
