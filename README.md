@@ -87,7 +87,7 @@ Para la importación del CSS para nuestro proyecto, deberemos ir al archivo (<co
 
 Incluir en el archivo <code>src/index.js</code> antes del cierre del <code>&lt;/body&gt;</code>
 <br>
-`<!doctype html>
+```<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -96,7 +96,9 @@ Incluir en el archivo <code>src/index.js</code> antes del cierre del <code>&lt;/
   <body>
     <script src="./index.js"></script>
   </body>
-</html>`
+</html>
+```
+<br>
 
 ## Ejecución de entorno
 
