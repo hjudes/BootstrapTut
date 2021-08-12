@@ -7,18 +7,15 @@
 <h1 align="center">Bootstrap</h1>
 
 # BootstrapTut
-Sesión Bootstrap
-
+Sesión Bootstrap Diplomado SENA
 Resumen de los pasos ejecutados en la sesión de Bootstrap realizada.
-<br>
-Herramientas requeridas: Visual Studio Code, Node.js, cualquier navegador.
 <br>
 La presente guía será basada en la versión 5 de Bootstrap
 <br>
 
-## Table of contents
+## Contenido
 
-- [Quick start](#quick-start)
+- [Requerimientos técnicos](#requerimientos)
 - [Status](#status)
 - [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
@@ -31,9 +28,9 @@ La presente guía será basada en la versión 5 de Bootstrap
 - [Copyright and license](#copyright-and-license)
 
 
-## Quick start
+## Requerimientos
 
-Several quick start options are available:
+Herramientas requeridas: Visual Studio Code, Node.js, cualquier navegador.
 
 - [Download the latest release](https://github.com/twbs/bootstrap/archive/v5.1.0.zip)
 - Clone the repo: `git clone https://github.com/twbs/bootstrap.git`
