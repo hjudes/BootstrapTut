@@ -17,6 +17,7 @@ La presente guía será basada en la versión 5 de Bootstrap
 
 - [Requerimientos técnicos](#requerimientos)
 - [Instalación](#instalación)
+- [Estructura de carpetas](#estructura-de-carpetas)
 - [Copyright y licencia](#copyright-y-licencia)
 
 ## Requerimientos técnicos
@@ -42,11 +43,28 @@ Instalar con [npm](https://www.npmjs.com/): `npm install -g parcel-bundler`
 - Instalar Bootstrap
 `npm install bootstrap`
 
-- Crear el archivo package.json en el directorio usando:
+- Crear el archivo package.json en el directorio usando
 `npm init -y`
 
 - Instalar Popper
 `npm install @popperjs/core`
+
+## Estructura de carpetas
+
+Para iniciar, la estructura que se deberá tener es la siguiente:
+```text
+nombre-proyecto/
+├── node_modules/
+│   └── bootstrap/
+│   └── popper.js/
+└── scss/
+│   ├── custom.scss
+├── src/
+│   ├── index.html
+│   ├── index.js
+│  
+└── package.json
+```
 
 ## Copyright y licencia
 
