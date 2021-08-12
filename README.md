@@ -18,6 +18,7 @@ La presente guía será basada en la versión 5 de Bootstrap
 - [Requerimientos técnicos](#requerimientos)
 - [Instalación](#instalación)
 - [Estructura de carpetas](#estructura-de-carpetas)
+- [Importar JavaScript](#Importar JavaScript)
 - [Copyright y licencia](#copyright-y-licencia)
 
 ## Requerimientos técnicos
@@ -65,6 +66,12 @@ nombre-proyecto/
 │  
 └── package.json
 ```
+Crear archivos y carpetas correspondientes para finalizar esta parte del proceso.
+
+## Importar JavaScript
+
+Para la importación del JavaScript de Bootstrap en el punto de entrada (src/index.js) indicar la siguiente instrucción:
+`import * as bootstrap from 'bootstrap';`
 
 ## Copyright y licencia
 
