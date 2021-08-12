@@ -19,8 +19,7 @@ La presente guía será basada en la versión 5 de Bootstrap
 - [Instalación](#instalación)
 - [Copyright y licencia](#copyright-y-licencia)
 
-
-## Requerimientos
+## Requerimientos técnicos
 
 Herramientas requeridas: Visual Studio Code, Node.js, cualquier navegador.
 
@@ -29,8 +28,25 @@ Herramientas requeridas: Visual Studio Code, Node.js, cualquier navegador.
 
 Se utilizará la documentación [Getting started page](https://getbootstrap.com/docs/5.1/getting-started/introduction/) para referencia en cuanto al proceso de instalación, contenido del framework, plantillas, ejemplos y más.
 
+La guía considerará los resultados obtenidos con Bootstrap v.5.1, Visual Studio Code v.1.59.0 y Node.js v.14.16.0 o 14.17.5.
+
 ## Instalación
 
+Una vez instalados los componentes de Visual Studio Code y Node.js deberá ser creada la carpeta que se utilizará para almacenar los archivos.
+
+Utilizaremos Parcel para incluir Bootstrap en el proyecto.
+
+- Instalar Parcel Bundler
+Instalar con [npm](https://www.npmjs.com/): `npm install -g parcel-bundler`
+
+- Instalar Bootstrap
+`npm install bootstrap`
+
+- Crear el archivo package.json en el directorio usando:
+`npm init -y`
+
+- Instalar Popper
+`npm install @popperjs/core`
 
 ## Copyright y licencia
 
