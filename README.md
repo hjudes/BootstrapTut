@@ -70,7 +70,8 @@ Crear archivos y carpetas correspondientes para finalizar esta parte del proceso
 
 ## Importar JavaScript
 
-Para la importación del JavaScript de Bootstrap en el punto de entrada (src/index.js) indicar la siguiente instrucción:
+Para la importación del JavaScript de Bootstrap en el punto de entrada (<code>src/index.js</code>) indicar la siguiente instrucción:
+<br>
 `import * as bootstrap from 'bootstrap';`
 
 ## Copyright y licencia
