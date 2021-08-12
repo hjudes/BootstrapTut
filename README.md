@@ -18,7 +18,10 @@ La presente guía será basada en la versión 5 de Bootstrap
 - [Requerimientos técnicos](#requerimientos)
 - [Instalación](#instalación)
 - [Estructura de carpetas](#estructura-de-carpetas)
-- [Importar JavaScript](#Importar JavaScript)
+- [Importar JavaScript](#importar-JavaScript)
+- [Importar CSS](#importar-css)
+- [Construir aplicación](#construir-aplicación)
+- [Ejecución de entorno](#ejecución-de-entorno)
 - [Copyright y licencia](#copyright-y-licencia)
 
 ## Requerimientos técnicos
@@ -73,6 +76,30 @@ Crear archivos y carpetas correspondientes para finalizar esta parte del proceso
 Para la importación del JavaScript de Bootstrap en el punto de entrada (<code>src/index.js</code>) indicar la siguiente instrucción:
 <br>
 `import * as bootstrap from 'bootstrap';`
+
+## Importar CSS
+
+Para la importación del CSS para nuestro proyecto, deberemos ir al archivo (<code>scss/custom.scss</code>) e indicar la siguiente instrucción:
+<br>
+`@import "../node_modules/bootstrap/scss/bootstrap";`
+
+## Construir aplicación
+
+Incluir en el archivo <code>src/index.js</code> antes del cierre del </body>
+`<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <script src="./index.js"></script>
+  </body>
+</html>`
+
+## Ejecución de entorno
+
+Lo primero que deberemos hacer será editar el archivo <code>package.json</code>.
 
 ## Copyright y licencia
 
