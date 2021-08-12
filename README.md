@@ -85,7 +85,7 @@ Para la importación del CSS para nuestro proyecto, deberemos ir al archivo (<co
 
 ## Construir aplicación
 
-Incluir en el archivo <code>src/index.js</code> antes del cierre del </body>
+Incluir en el archivo <code>src/index.js</code> antes del cierre del <code></body></code>
 `<!doctype html>
 <html lang="en">
   <head>
@@ -99,7 +99,7 @@ Incluir en el archivo <code>src/index.js</code> antes del cierre del </body>
 
 ## Ejecución de entorno
 
-Lo primero que deberemos hacer será editar el archivo <code>package.json</code>.
+Lo primero que deberemos hacer será editar el archivo <code>package.json</code>
 
 ## Copyright y licencia
 
