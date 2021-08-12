@@ -86,6 +86,7 @@ Para la importación del CSS para nuestro proyecto, deberemos ir al archivo (<co
 ## Construir aplicación
 
 Incluir en el archivo <code>src/index.js</code> antes del cierre del <code>&lt;/body&gt;</code>
+<br>
 ``<!doctype html>
 <html lang="en">
   <head>
