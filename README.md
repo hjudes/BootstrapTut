@@ -87,7 +87,16 @@ Para la importación del CSS para nuestro proyecto, deberemos ir al archivo (<co
 
 Incluir en el archivo <code>src/index.js</code> antes del cierre del <code>&lt;/body&gt;</code>
 <br>
-
+`<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <script src="./index.js"></script>
+  </body>
+</html>`
 
 ## Ejecución de entorno
 
