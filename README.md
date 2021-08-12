@@ -24,15 +24,14 @@ La presente guía será basada en la versión 5 de Bootstrap
 
 Herramientas requeridas: Visual Studio Code, Node.js, cualquier navegador.
 
-- [Download the latest release](https://github.com/twbs/bootstrap/archive/v5.1.0.zip)
-- Clone the repo: `git clone https://github.com/twbs/bootstrap.git`
-- Install with [npm](https://www.npmjs.com/): `npm install bootstrap`
-- Install with [yarn](https://yarnpkg.com/): `yarn add bootstrap`
-- Install with [Composer](https://getcomposer.org/): `composer require twbs/bootstrap:5.1.0`
-- Install with [NuGet](https://www.nuget.org/): CSS: `Install-Package bootstrap` Sass: `Install-Package bootstrap.sass`
+- Instalar Visual Studio Code: [Página oficial](https://code.visualstudio.com/Download)
+- Instalar Node.js: [Página oficial](https://nodejs.org/en/)
 
-Read the [Getting started page](https://getbootstrap.com/docs/5.1/getting-started/introduction/) for information on the framework contents, templates and examples, and more.
+Se utilizará la documentación [Getting started page](https://getbootstrap.com/docs/5.1/getting-started/introduction/) para referencia en cuanto al proceso de instalación, contenido del framework, plantillas, ejemplos y más.
+
+## Instalación
+
 
 ## Copyright y licencia
 
-Bootstrap surge de Twitter [Twitter, Inc.](https://twitter.com) Código liberado bajo la licencia MIT. Documentos liberados bajo [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
+Bootstrap originado en [Twitter, Inc.](https://twitter.com) Código liberado bajo la licencia MIT. Documentos liberados bajo [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
