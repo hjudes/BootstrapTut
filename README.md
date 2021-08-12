@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h3 align="center">Bootstrap</h3>
+<h1 align="center">Bootstrap</h1>
 
 # BootstrapTut
 Sesión Bootstrap
