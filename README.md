@@ -98,17 +98,6 @@ Incluir en el archivo <code>src/index.js</code> antes del cierre del <code>&lt;/
   <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 
-``<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <script src="./index.js"></script>
-  </body>
-</html>``
-
 ## Ejecución de entorno
 
 Lo primero que deberemos hacer será editar el archivo <code>package.json</code>
